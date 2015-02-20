@@ -1,0 +1,312 @@
+@font-face {
+    font-family: 'source_sans_prolight';
+    src: url('fonts/sourcesanspro-light-webfont.eot');
+    src: url('fonts/sourcesanspro-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-light-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-light-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-light-webfont.svg#source_sans_prolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_problack';
+    src: url('fonts/sourcesanspro-black-webfont.eot');
+    src: url('fonts/sourcesanspro-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-black-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-black-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-black-webfont.svg#source_sans_problack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('fonts/sourcesanspro-regular-webfont.eot');
+    src: url('fonts/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-regular-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-regular-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_proitalic';
+    src: url('fonts/sourcesanspro-it-webfont.eot');
+    src: url('fonts/sourcesanspro-it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-it-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-it-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-it-webfont.svg#source_sans_proitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_probold';
+    src: url('fonts/sourcesanspro-bold-webfont.eot');
+    src: url('fonts/sourcesanspro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-bold-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-bold-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-bold-webfont.svg#source_sans_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_probold_italic';
+    src: url('fonts/sourcesanspro-boldit-webfont.eot');
+    src: url('fonts/sourcesanspro-boldit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-boldit-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-boldit-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-boldit-webfont.svg#source_sans_probold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_prosemibold';
+    src: url('fonts/sourcesanspro-semibold-webfont.eot');
+    src: url('fonts/sourcesanspro-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-semibold-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-semibold-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-semibold-webfont.svg#source_sans_prosemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+h1 {
+	font-family: 'source_sans_prolight' !important;
+}
+
+h2, h6 {
+  font-family: 'source_sans_problack' !important;
+}
+
+h3 {
+  font-family: 'source_sans_probold' !important;
+}
+
+h4 {
+  font-family: 'source_sans_probold' !important;
+}
+
+h5 {
+  font-family: 'source_sans_prosemibold' !important;
+}
+
+
+p, ul, ol{
+  font-family: 'source_sans_proregular' !important;
+}
+
+em{
+  font-family: 'source_sans_proitalic' !important;
+}
+
+strong{
+  font-family: 'source_sans_probold' !important;
+}
+
+em strong {
+    font-family: 'source_sans_probold_italic' !important;
+}
+
+#mainbox{
+}
+
+#slidecontent {
+  background-color:#4777bb;
+}
+
+.botonblanco li a, .fontboton {
+    font-family: 'source_sans_prosemibold' !important;
+    color:#ffffff;
+}
+
+#mainmenu {
+	padding:0 !important;
+}
+
+#contentmenu {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+#menucontent {
+    padding:15px 0;
+    margin: 0 0 0 0;
+}
+
+#menuprin, {
+    margin:0 auto;
+}
+
+#menuprin dd{
+    line-height: 66px;
+    font-family: 'source_sans_prosemibold';
+    color:#4777bb;
+    margin-left:0.3rem;
+}
+
+#menuprin .sub-nav dd{
+    color:#4777bb;
+}
+
+#logo {
+    margin:0;
+}
+
+#menuprin .sub-nav dd a, #menuprin .sub-nav li a {
+    background: #4777bb;
+    padding: 0.1875rem 0.4rem;
+    line-height: 66px;
+}
+
+#menuprin .sub-nav dd.active a, #menuprin .sub-nav li.active a {
+    border-radius: 3px;
+    font-weight: normal;
+    background: #4777bb;
+    padding: 0.1875rem 0.5rem;
+    cursor: default;
+    color: white;
+    line-height: 66px;
+}
+
+.size-social {
+    font-size: 32px;
+    line-height: 66px !important;
+    padding: 0.1875rem 0.2rem !important;
+}
+
+[data-magellan-expedition], [data-magellan-expedition-clone] {
+  background: white;
+  z-index: 50;
+  min-width: 100%;
+  padding: 10px; }
+  [data-magellan-expedition] .sub-nav, [data-magellan-expedition-clone] .sub-nav {
+    margin-bottom: 0; }
+    [data-magellan-expedition] .sub-nav dd, [data-magellan-expedition-clone] .sub-nav dd {
+      margin-bottom: 0; }
+    [data-magellan-expedition] .sub-nav a, [data-magellan-expedition-clone] .sub-nav a {
+      line-height: 1.8em; 
+      color: #4777bb;
+  }
+
+.panelimg {
+    z-index:1;
+    position: relative;
+    margin-top: -340px;
+    clear: both;
+}
+
+.artindex {
+    z-index:2;
+    min-height: 300px;
+}
+
+.feedburnerFeedBlock,  {
+  font-family: 'source_sans_proregular' !important;
+}
+
+.feedburnerFeedBlock li {
+  list-style: none !important;
+  margin-top: 45px;
+  border-bottom: 1px solid #dddddd !important;
+  padding-bottom: 20px;
+}
+
+.feedburnerFeedBlock .headline {
+  font-family: 'source_sans_probold' !important;
+  font-size: 1.5rem !important;
+  line-height: 1.6px;
+}
+
+#creditfooter {
+  display: ;
+}
+
+#fondo {
+}
+
+#homepanel {
+  padding-top: 15px;
+  margin-top: 260px;
+  background: rgba(256, 256, 256, .60);
+}
+
+#home {
+    background: url(../img/fondo.jpg) rgba(71, 119, 187, 0.7) repeat-x !important;
+    height: 650px !important;
+    position: relative !important;
+    margin-top: 0;
+}
+
+.panel {
+  background: rgba(256, 256, 256, .70);
+}
+
+.tabs-content h2 {
+  line-height: 2.4rem !important;
+}
+
+.tab-title a h6 {
+  line-height: 1.2rem !important;
+}
+
+ /* background: rgba(71, 119, 187, 0.7);*/
+
+.bgimage {
+  height: 360px;
+  background: url(../img/escheresque.png) repeat;
+}
+
+.bgimage img{
+  position: absolute;
+  top:5px;
+}
+
+#blog .separator {
+  text-align: left !important;
+}
+
+#blog a {
+  margin-left: 0 !important;
+}
+
+.ligthboxpad {
+  padding-left:10px;
+}
+
+footer {
+  background: url(../img/rebel.png) repeat #333;
+  color: rgb(200, 200, 200);
+  padding-top: 20px;
+}
+
+footer p {
+  line-height: 1rem;
+}
+
+#redes2 li{
+  padding-right:25px;
+}
+
+body {
+  background: url(../img/subtle_dots.png) repeat;
+}
+
+.tabs dd.active a, .tabs .tab-title.active a {
+  background: rgba(71, 119, 187, 0.4) !important;
+}
